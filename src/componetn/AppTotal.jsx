@@ -7,7 +7,7 @@ function AppTotal ({ list }) {
 return (
     <>
     {
-        list.length > 0 && <h1>totale: {totale} €</h1>
+        list.length > 0 && <h1>totale: {totale.toFixed(2)} €</h1>
     }
     
     </>
